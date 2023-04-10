@@ -340,11 +340,12 @@ del hero*/
     border-radius:0px 0px 230px 0px ;
     z-index: -1;
 }
-
+/*doy tamaño y fondo a la section*/
 .reviews{
     background-color: rgba(169, 169, 148, 0.1);
     height: 85vh;
 }
+/*modifique el h1*/
 .reviews h1{
     font-size: 55px;
     width: 15%;
@@ -353,7 +354,8 @@ del hero*/
     padding-top: 110px;
     padding-bottom: 60px;
 }
-
+/*puse la informacion uno al 
+lado del otro*/
 .reviews .items{
     display: flex;
     justify-content: space-evenly;
@@ -361,18 +363,29 @@ del hero*/
     margin: 0 auto;
     text-align: center;
 }
-
+/*le di tamaño a cada cuadro de info*/
 .items .informacion{
     width: 26%;
 }
-
+/*modifique todos los h2*/
 .items .informacion h2{
     font-size: 34px;
     color: #F53A50;
 }
+/*modifique todos los p*/
 .items .informacion p{
     padding-top: 35px;
     font-size: 16px;
     color: black;
     line-height: 29px;
+}
+/*coloque la imagen*/
+.reviews img{
+    position: absolute;
+    left: 12%;
+    top: 425%;
+}
+
+.producUni{
+    background-color: aqua;
 }
