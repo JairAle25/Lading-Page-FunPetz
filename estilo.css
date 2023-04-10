@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
+/*propiedades para todos esos elementos*/
+h1,h2,a{
+    font-weight: 600;
+}
+/*para todas los links*/
+a{
+    text-decoration: none;
+}
+/*tamaño foto cabecera*/
+.cabecera img{
+    width: 150px;
+}
+/*diseño de la cabecera*/
+.cabecera{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    position: fixed;
+    width: 100%; 
+    z-index: 1; 
+}
+/*diseño link de la cabecera*/
+.links a{
+    color: black;
+    padding-right: 35px;
+}
+/*una pequeña animacion para cuando pasas
+el mouse por encima de los links de la cabecera*/
+.links a:hover{
+    text-decoration: underline;
+}
+/*decoro y posiciono la imgen del hero*/
+.hero{
+    background-image: url(imagenes/FondoHero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+/*pongo el difuminado rosa arriba de la foto*/
+.hero::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:linear-gradient(30deg,#da124e,#f54d60);
+    opacity: 0.7;
+}
+/*decoro el h1 del texto*/
+.contHero h1{
+    font-size: 85px;
+    color: white;
+}
+/*decoro el p del texto*/
+.contHero p{
+    font-size: 26px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    line-height: 38px;
+}
+/*decoro el a del texto*/
+.contHero a{
+    background-color: white;
+    color: #F53A50;
+    border-radius: 15px;
+    padding: 18px 18px;
+    font-size: 20px;
+    transition-property: background-color,color;
+    transition-duration: 0.6s;
+}
+/*le doy animacion al link del hero*/
+.contHero a:hover{
+    background-color: #F53A50;
+    color: white;
+}
+/*decoro y acomodo en el lugar a todo el contenido
+del hero*/
+.contHero{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    left: 12%;
+    top: 27%;
+}
+/*proporcion de la section*/
+.productos{
+    height: 90vh;
+}
+/*modifico el h1*/
+.productos h1{
+    display: flex;
+    justify-content: center;
+    color: #F53A50;
+    font-size: 55px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    width: 30%;
+    margin: 0 auto;
+}
+/*modifico las cajas*/
+.caja{
+    width: 19%;
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+}
+/*modifico las imagenes de las cajas*/
+.imgcajas{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(138, 137, 137);
+}
+/*modifico el subtitulo de las cajas*/
+.cajasProductos .subtitulo{
+    color: #F53A50;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 45px;
+    padding-bottom: 17px;
+}
+/*modifico el texto de las cajas*/
+.cajasProductos .texto{
+    font-size: 14px;
+    color:black;
+    font-weight: 600;
+    line-height: 29px;
+}
+/*modifico los botones de las cajas*/
+.cajasProductos a{
+    background-color: #F53A50;
+    color: white;
+    margin-top: 25px;
+    width: 50%;
+    padding: 15px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(127, 127, 127);
+    display: flex;
+    justify-content: center;
+    transition-property: background-color,color;
+    transition-duration: 0.6s;
+}
+/*le doy animacion a los botones*/
+.cajasProductos a:hover{
+    background-color: white;
+    color: #F53A50;
+}
+/*modifico tamaño de las 3 cajas en conjunto*/
+.cajasProductos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+/*modifique tamaño y fondo del ebook*/
+.ebook-top{
+    height: 45vh;
+    background:linear-gradient(30deg,#da124e,#f54d60);
+}
+/*modifique el contenido*/
+.ebook-topCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 60px;
+    
+}
+/*modifique el h1*/
+.ebook-topCont h1{
+    font-size: 55px;
+    color: white;
+}
+/*modifique el texto*/
+.ebook-topCont p{
+    color: white;
+    padding-top: 28px;
+    font-size: 19px;
+    line-height: 30px;
+}
+/*hice el botton con una transicion*/
+.ebook-topCont a{
+    background-color: white;
+    color: #F53A50;
+    margin-top: 25px;
+    padding: 14px 22px;
+    font-size: 17px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    transition-property: background-color,color;
+    transition-duration: 0.6s;
+}
+/*animacion del boton*/
+.ebook-topCont a:hover{
+    background-color: #F53A50;
+    color: white;
+}
+/*cambie el tamaño del div*/
+.VideoPerro{
+    height: 60vh;
+}
+/*modifique el video del perro*/
+.VideoPerro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+/*modifique y acomode el h1*/
+.VideoPerro h1{
+    color: white;
+    font-size: 68px;
+    width: 25%;
+    line-height: 95px;
+    left: 57%;
+    top: 250%;
+    position: absolute;
+    z-index: 0;
+}
+/*le puse una capa rosa al video del perro*/
+.capa{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    background: #fc697b;
+    opacity: 0.7;
+    z-index: -1;
+    left: 0;
+    top: 235%;
+    mix-blend-mode: overlay;
+}
+.about{
+    background-color: white;
+}
