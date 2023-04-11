@@ -506,6 +506,7 @@ lado del otro*/
 .formulario input{
     color: black;
     font-size: 16px;
+    outline: none;
 }
 
 .formulario input[type=text],input[type=email]{
