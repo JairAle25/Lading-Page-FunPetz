@@ -419,11 +419,12 @@ lado del otro*/
 .producUni img{
     width: 420px;
 }
-
+/*Modique esa section*/
 .warranty{
     height: 45vh;
     background:linear-gradient(30deg,#da124e,#f54d60);
 }
+/*Modifico el contenido*/
 .warranty .cont{
     display: flex;
     flex-direction: column;
@@ -435,11 +436,12 @@ lado del otro*/
     padding-top: 60px;
     
 }
+/*modifique el h1*/
 .warranty h1{
     font-size: 55px;
     color: white;
 }
-
+/*modifique el parrafo*/
 .warranty p{
     color: white;
     padding-top: 28px;
@@ -447,7 +449,7 @@ lado del otro*/
     line-height: 30px;
     
 }
-
+/*modifique los botones*/
 .warranty a{
     background-color: white;
     color: #F53A50;
@@ -461,19 +463,20 @@ lado del otro*/
     transition-duration: 0.6s;
     font-weight: 600;
 }
-
+/*le di animacion */
 .warranty a:hover{
     background-color: #F53A50;
     color: white;
 }
-
+/*es el tamaño la section contacto*/
 .contacto{
     height: 90vh;
 }
+/*es el tamaño y centrado del formulario*/
 .formulario{
     width: 40%;
     margin: 0 auto;
-
+/*modifique el h1*/
 }
 .formulario h1{
     font-size: 55px;
@@ -484,48 +487,52 @@ lado del otro*/
     padding-bottom: 30px;
 
 }
+/*cambio de color el asterico*/
 .abajo span{
     color: #F53A50;
     font-size: 15px;
 }
+/*los inputs pegados*/
 .pegados{
     display: flex;
     justify-content: space-between;
 }
+/*los inputs de abajo*/
 .abajo{
     display: flex;
     flex-direction: column;
 }
-
+/*diseño de los labels*/
 .formulario label{
     color: grey;
     font-size: 14px;
     padding-top: 25px;
     padding-bottom: 15px;
 }
+/*diseño de los placeHolder*/
 .formulario input{
     color: black;
     font-size: 16px;
     outline: none;
 }
-
+/*diseño de todas las cajas*/
 .formulario input[type=text],input[type=email]{
     border-radius: 13px;
     border-style: none;
     box-shadow: 3px 3px 5px rgb(184, 183, 183);
     
 }
-
+/*diseño de las cajas de inputs de abajo*/
 .abajo input[type=text],input[type=email]{
     padding: 18px 0px;
     padding-left: 17px;
     padding-right: 75px;
 }
-
+/*diseño de las cajas de inputs*/
 .abajo .grande[type=text]{
     padding-bottom: 150px ;
 }
-
+/*diseño de los button*/
 .abajo button{
     cursor: pointer;
     background-color: #F53A50;
@@ -542,21 +549,25 @@ lado del otro*/
     transition-duration: 0.6s;
     font-weight: 600;
 }
+/*diseño y animacion para el boton*/
 .abajo button:hover{
     background-color: white;
     color: #F53A50;
 }
+/*diseño del div de redes*/
 .redes{
     background:linear-gradient(30deg,#da124e,#f54d60);
     height: 20vh;
     display: flex;
 }
+/*cambiar el div de los logos*/
 .logos{
     width: 9%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
+/*cambios de color de los iconos*/
 .logos i,a{
     color:white;
     font-size:23px;
@@ -564,15 +575,17 @@ lado del otro*/
     transition-property:color;
     transition-duration: 0.5s;
 }
+/*animacion de los iconos*/
 .logos i:hover{
     color: black;
 }
-
+/*la imagen del perro*/
 .creditos img{
     position: absolute;
     left: 19%;
     top: 668.4%;
 }
+/*texto de copy*/
 .copy{
     padding: 40px 0px;
     display: flex;
