@@ -32,6 +32,7 @@ a{
 .links a{
     color: black;
     padding-right: 35px;
+    font-size: 1.2rem;
 }
 /*una pequeña animacion para cuando pasas
 el mouse por encima de los links de la cabecera*/
